@@ -202,7 +202,7 @@ html, body {
 .section-3-1 h2 {
   font-family: "font1";
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -216,7 +216,7 @@ html, body {
 }
 
 .webp-crop {
-  width: 180px;       /* ukuran area */
+  width: 150px;       /* ukuran area */
   height: auto;      /* ukuran area */
   object-position: center; /* fokus di tengah */
 }
@@ -333,7 +333,7 @@ html, body {
 /* HALAMAN 7 */
 
 .section-7 {
-  min-height: 60vh !important;
+  min-height: 50vh !important;
   background-image: url('asset/background/bg9-1.jpg'); /* Path gambar */
   background-size: cover; /* Membuat gambar menyesuaikan ukuran container */
   background-position: center; /* Memusatkan gambar */
@@ -348,7 +348,7 @@ html, body {
   height: auto;
   display: block;
   margin-bottom: 80px;
-  margin-top: -200px;
+  margin-top: -300px;
 }
 
 .section-7-2 {
