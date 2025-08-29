@@ -1,0 +1,575 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Batasi lebar agar tidak lebih dari ukuran mobile portrait */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background: #f9f9f9;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "font1";
+    src: url("font/Kefir-Medium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "font2";
+    src: url("font/Kefir-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* HALAMAN 1 */
+
+.section-1 {
+  background-image: url('asset/background/bg1.png'); /* Path gambar */
+  background-size: cover; /* Membuat gambar menyesuaikan ukuran container */
+  background-position: center; /* Memusatkan gambar */
+  background-repeat: no-repeat; /* Mencegah gambar berulang */
+  height: 400px; /* Tentukan tinggi container */
+  display: flex; /* Supaya isi bisa diatur posisinya */
+  align-items: center; /* Tengah vertikal */
+  justify-content: center; /* Tengah horizontal */
+}
+
+.section-1-img {
+  margin-top: 50px;
+  margin-bottom: 220px;
+  width: 100%;
+}
+
+.img1-1 {
+  z-index: 1;
+  position: relative;
+  width: 45%;
+  top: 180px;
+  left: -80px;
+}
+
+.img1-2 {
+    position: absolute;
+    width: 100%;
+    left: 10px;
+    right: 10px;
+}
+
+.section-1 p {
+    font-family: "font1";
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.section-1 h1 {
+    font-family: "font1";
+    font-size: 30px;
+    letter-spacing: 7px;
+}
+
+.section-1 h2 {
+    font-family: "font2";
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.section-1 h3 {
+    font-family: "font1";
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.section-2 {
+  background-image: url('asset/background/bg2.png'); /* Path gambar */
+  background-size: cover; /* Membuat gambar menyesuaikan ukuran container */
+  background-position: center; /* Memusatkan gambar */
+  background-repeat: no-repeat; /* Mencegah gambar berulang */
+  height: 400px; /* Tentukan tinggi container */
+  display: flex; /* Supaya isi bisa diatur posisinya */
+  align-items: center; /* Tengah vertikal */
+  justify-content: space-between; /* Tengah horizontal */
+}
+
+.section-2-1 {
+    font-family: "font1";
+    font-style: normal;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.section-2-1 p {
+  margin-bottom: 20px;
+}
+
+/* HALAMAN 2 */
+
+.section-2-2 {
+  display: flex;
+  align-items: center;
+}
+
+.section-2-2 img {
+  max-width: 45%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.section-2-2 h1 {
+    font-family: "font1";
+    font-weight: lighter;
+    letter-spacing: normal;
+    line-height: 25px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.section-2-2 p {
+    font-family: "font1";
+    line-height: 13px;
+    font-weight: 100;
+    font-size: 10px;
+    text-align: left;
+}
+
+.section-2-3 {
+  display: flex;
+  align-items: center;
+}
+
+.section-2-3 img {
+  max-width: 45%;
+  height: auto;
+  margin-left: 20px;
+}
+
+.section-2-3 h1 {
+    font-family: "font1";
+    font-weight: lighter;
+    letter-spacing: normal;
+    line-height: 25px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.section-2-3 p {
+    font-family: "font1";
+    font-weight: lighter;
+    line-height: 13px;
+    font-size: 10px;
+    text-align: right;
+}
+
+/* HALAMAN 3 */
+
+.section-3 {
+  background-image: url('asset/background/bg3.png'); /* Path gambar */
+  background-size: cover; /* Membuat gambar menyesuaikan ukuran container */
+  background-position: center; /* Memusatkan gambar */
+  background-repeat: no-repeat; /* Mencegah gambar berulang */
+  height: 400px; /* Tentukan tinggi container */
+  display: flex; /* Supaya isi bisa diatur posisinya */
+  align-items: center; /* Tengah vertikal */
+  justify-content: space-between; /* Tengah horizontal */
+}
+
+.section-3-1 h1 {
+  font-family: "font1";
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 7px;
+  margin-bottom: 30px;
+}
+
+.section-3-1 img {
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 20px;
+}
+
+.section-3-1 h2 {
+  font-family: "font1";
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section-3-1 p {
+    font-family: "font1";
+  font-weight: normal;
+  font-size: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 20px;
+}
+
+.webp-crop {
+  width: 180px;       /* ukuran area */
+  height: auto;      /* ukuran area */
+  object-position: center; /* fokus di tengah */
+}
+
+/* HALAMAN 4 */
+
+.section-4 {
+  background-image: url('asset/background/bg456.png'); /* Path gambar */
+  background-size: cover; /* Membuat gambar menyesuaikan ukuran container */
+  background-position: center; /* Memusatkan gambar */
+  background-repeat: no-repeat; /* Mencegah gambar berulang */
+  display: flex; /* Supaya isi bisa diatur posisinya */
+  align-items: center; /* Tengah vertikal */
+  justify-content: space-between; /* Tengah horizontal */
+}
+
+.section-4 h1 {
+  font-family: "font1";
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #2E4517;
+}
+
+.section-4-foto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.section-4-foto img.landscape {
+  width: 100%;
+  display: block;
+}
+
+.section-4-foto img.potrait {
+  width: 50%;
+  display: block;
+}
+
+/* HALAMAN 5 */
+
+.section-5 {
+  background-image: url('asset/background/bg7-1.png'); /* Path gambar */
+  background-size: cover; /* Membuat gambar menyesuaikan ukuran container */
+  background-position: center; /* Memusatkan gambar */
+  background-repeat: no-repeat; /* Mencegah gambar berulang */
+  display: flex; /* Supaya isi bisa diatur posisinya */
+  align-items: center; /* Tengah vertikal */
+  justify-content: space-between; /* Tengah horizontal */
+}
+
+.section-5 {
+    display: flex;
+}
+
+.section-5-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.section-5-1 img {
+  width: auto;
+  height: 38px;
+  display: block;
+}
+
+.section-5-2 img {
+  width: 90%;
+  height: auto;
+}
+
+/* HALAMAN 6 */
+
+.section-6 {
+  background-image: url('asset/background/bg8-1.png'); /* Path gambar */
+  background-size: cover; /* Membuat gambar menyesuaikan ukuran container */
+  background-position: center; /* Memusatkan gambar */
+  background-repeat: no-repeat; /* Mencegah gambar berulang */
+  display: flex; /* Supaya isi bisa diatur posisinya */
+  align-items: center; /* Tengah vertikal */
+  justify-content: space-between; /* Tengah horizontal */
+}
+
+.section-6 h1 {
+  font-family: "font1";
+  font-weight: lighter;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.section-6 p {
+    font-family: "font1";
+  font-weight: lighter;
+  font-size: 10px;
+  margin-bottom: 20px;
+  padding: 10px 40px 10px 40px;
+}
+
+.section-6 img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* HALAMAN 7 */
+
+.section-7 {
+  min-height: 60vh !important;
+  background-image: url('asset/background/bg9-1.jpg'); /* Path gambar */
+  background-size: cover; /* Membuat gambar menyesuaikan ukuran container */
+  background-position: center; /* Memusatkan gambar */
+  background-repeat: no-repeat; /* Mencegah gambar berulang */
+  display: flex; /* Supaya isi bisa diatur posisinya */
+  align-items: center; /* Tengah vertikal */
+  justify-content: space-between; /* Tengah horizontal */
+}
+
+.section-7-1 {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-bottom: 80px;
+  margin-top: -200px;
+}
+
+.section-7-2 {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Wrapper agar berada di tengah dan responsif */
+.wrapper {
+  width: 100%;
+  max-width: 430px; /* Ukuran fix seperti iPhone 14/15 */
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* Container section */
+.container {
+  width: 100%;
+  min-height: 100vh; /* Ganti dari height: 100vh agar scroll normal */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Tombol musik */
+#musicBtn {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: #ffffffcc;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.2rem;
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* OVERLAY COVER */
+/* .cover-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: #fff; bisa pakai background gambar juga */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 1s ease; animasi fade */
+
+
+/* .cover-overlay.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cover-content h1, .cover-content p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 10px 0;
+}
+
+#openInvitation {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6495ED;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+} */
+
+
+/* Responsive font scaling (opsional) */
+@media screen and (max-width: 375px) {
+  .container {
+    font-size: 1rem;
+    padding: 15px;
+  }
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* full width viewport */
+  height: 100vh; /* full height viewport */
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Gambar di overlay menyesuaikan lebar halaman */
+.overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  animation: fadeInUp 0.4s ease;
+  position: relative;
+}
+
+.overlay-content h2 {
+  margin-bottom: 10px;
+}
+
+.overlay-content p {
+  margin-left: -5px;
+  line-height: 1.4;
+}
+
+.overlay-content img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.text-copy-1 {
+  display: flex;
+  height: 23px;
+  position: absolute;
+  z-index: 5;
+  transform: translate(27px, -370%);
+  gap: 10px;
+  width: 250px;
+  max-width: 100%;
+}
+
+.text-copy-1 p {
+  text-align: left;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+}
+
+
+.text-copy {
+  display: flex;
+  height: 23px;
+  position: absolute;
+  z-index: 5;
+  transform: translate(27px, -370%);
+  gap: 10px;
+  text-align: left;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  color: #f9f9f9;
+  align-items: center;
+}
+
+.extra-box {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* BUTTON */
+
+.button-tutup {
+  margin-top: 20px;
+}
